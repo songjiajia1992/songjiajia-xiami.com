@@ -1,0 +1,1680 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft Yahei", Tahoma, Geneva;
+}
+a,ul{
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.topLayout{
+    width: 100%;
+    height: 60px;
+    background: url("../images/topbg.png") repeat-x;
+}
+.topLayout .top{
+    width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+    zoom: 1;
+    position: relative;
+}
+.topLayout .top .logo{
+    width: 200px;
+    height: 60px;
+    background: url("../images/default.png") no-repeat 0 0;
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    float: left;
+}
+.topLayout .top .logo:hover{
+    background: url("../images/default.png") no-repeat 0 -60px;
+}
+.topLayout .top .findMusic{
+    float: left;
+    width: 90px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: url("../images/fingbg.png") repeat-x;
+}
+.topLayout .top .myMusic{
+    float: left;
+    width: 90px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+.topLayout .top .findMusic a,.topLayout .top .myMusic a{
+    font-size: 16px;
+    color: #fff;
+}
+.topLayout .top .topNav{
+    width: 243px;
+    height: 28px;
+    margin: 15px 20px;
+    border: 1px solid #db6b16;
+    float: left;
+}
+.topLayout .top .topNav li{
+    width: 60px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    border-right: 1px solid #db6b16;
+    float: left;
+}
+.topLayout .top .topNav .last{
+    border-right: none;
+}
+.topLayout .top .topNav li a{
+    font-size: 12px;
+    color: #fff;
+}
+.topLayout .top .topNav li:hover{
+    background: url("../images/listbg.png") repeat-x;
+}
+.topLayout .top .search{
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    width: 228px;
+    border: 1px solid #db6816;
+    margin-top: 15px;
+    background-color: #ffffff;
+    border-radius: 3px;
+
+}
+.topLayout .top .search .magnifier{
+    height: 28px;
+    line-height: 28px;
+    width: 30px;
+    float: left;
+    background: url("../images/header_icon.png") 2px -46px;
+}
+.topLayout .top .search input[type="text"]{
+    float: left;
+    border: 0;
+    height: 28px;
+    line-height: 28px;
+    outline: none;
+}
+
+.topLayout .top .btn a{
+    font-size: 12px;
+    color: #ffffff;
+    float:left;
+    height: 28px;
+    line-height: 28px;
+    background: #cb681c;
+    padding: 0 5px;
+    border:1px solid #b25415;
+
+    margin-top: 15px;
+}
+.topLayout .top .btn .register{
+    margin-right: 7px;
+    margin-left: 15px;
+    border-radius: 5px;
+
+}
+.topLayout .top .btn .register:hover{
+    background: #b9560a;
+}
+.topLayout .top .btn .login{
+    border-radius: 5px 0 0 5px;
+}
+.topLayout .top .btn .login:hover{
+    background: #b9560a;
+}
+.topLayout .top .btn .blog{
+    width: 15px;
+    background: #cb681c url("../images/header_thirdparty_icon.png") no-repeat -24px 3px;
+
+}
+.topLayout .top .btn .blog:hover{
+    background: #b9560a url("../images/header_thirdparty_icon.png") no-repeat -24px 3px;
+}
+.topLayout .top .btn .QQ{
+    width: 15px;
+    background: #cb681c url("../images/header_thirdparty_icon.png") no-repeat 0 3px;
+    border-radius:  0 5px 5px 0;
+}
+.topLayout .top .btn .QQ:hover{
+    background: #b9560a url("../images/header_thirdparty_icon.png") no-repeat 0 3px;
+}
+
+.top2Layout{
+    width: 100%;
+    height: 30px;
+    background: #f0f0f0;
+    border-bottom: 1px solid #cccccc;
+}
+.top2Layout .top2{
+    width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.top2Layout .top2 .top2NavL{
+    float: left;
+    margin-left: 100px;
+    overflow: hidden;
+    zoom: 1;
+}
+.top2Layout .top2 .top2NavL li{
+    height: 30px;
+    line-height: 30px;
+    float: left;
+}
+.top2Layout .top2 .top2NavL li a{
+    font-size: 12px;
+    color: #333;
+    padding: 0 17px;
+}
+.top2Layout .top2 .top2NavL li .hot{
+    color: #ff6600;
+}
+.top2Layout .top2 .top2NavL li a:hover{
+    color: #ff6600;
+}
+
+.top2Layout .top2 .top2NavR{
+    float: right;
+    overflow: hidden;
+    zoom: 1;
+
+}
+.top2Layout .top2 .top2NavR li{
+    width: 85px;
+    text-align: center;
+    float: left;
+    position: relative;
+}
+.top2Layout .top2 .top2NavR li a{
+    font-size: 12px;
+    color: #333;
+}
+.top2Layout .top2 .top2NavR li a:hover{
+    color: #ff6600;
+}
+.top2Layout .top2 .top2NavR1 .VIP{
+    width: 16px;
+    height: 16px;
+    background: url("../images/header_icon.png") no-repeat -77px -53px;
+    position: absolute;
+    top: 6px;
+    left: 0px;
+}
+.top2Layout .top2 .top2NavR1:hover .VIP{
+    background: url("../images/header_icon.png") no-repeat -77px -77px;
+}
+
+.top2Layout .top2 .top2NavR2 .play{
+    width: 16px;
+    height: 16px;
+    background: url("../images/header_icon.png") no-repeat -28px -53px;
+    position: absolute;
+    top: 6px;
+    left: -5px;
+}
+.top2Layout .top2 .top2NavR2:hover .play{
+    background: url("../images/header_icon.png") no-repeat -28px -77px;
+}
+.top2Layout .top2 .top2NavR3 .down{
+    width: 16px;
+    height: 16px;
+    background: url("../images/header_icon.png") no-repeat -53px -53px;
+    position: absolute;
+    top: 6px;
+    left: -5px;
+}
+.top2Layout .top2 .top2NavR3:hover .down{
+    background: url("../images/header_icon.png") no-repeat -53px -77px;
+}
+
+.mainLayout{
+    width: 100%;
+    color:#f5f5f5;
+
+}
+.main{
+    width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+    zoom: 1;
+}
+.mainLeft{
+    width: 775px;
+    /*height: 3000px;*/
+    border: 1px solid #ebebeb;
+    background: #fff;
+    float: left;
+    margin-top: 20px;
+}
+
+.mainLeft .left1{
+    margin: 15px;
+    overflow: hidden;
+    width: 740px;
+    height: 170px;
+    position: relative;
+
+}
+.mainLeft .left1 .banner{
+    width: 3700px;
+    position: absolute;
+    left: 0;
+    /*position: relative;*/
+}
+.mainLeft .left1 .banner li{
+
+    list-style: none;
+    float:left;
+}
+.mainLeft .left1 .tip{
+    width: 57px;
+    height: 18px;
+    line-height: 18px;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+   background-color: rgba(0,0,0,0.1);
+
+}
+.mainLeft .left1 .banner li img{
+    border: none;
+}
+.mainLeft .left1 .tip:hover{
+    background: #999;
+}
+.mainLeft .left1 .tip li{
+    width: 8px;
+    height: 8px;
+    border-radius:50%;
+    background: #fff;
+    float: left;
+    margin: 5px 0 5px 5px ;
+    cursor: pointer;
+}
+.mainLeft .left1 .tip li.select{
+    background: #f60;
+}
+.left2{
+    width: 760px;
+    margin-left: 15px;
+}
+.left2 p{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    font-size: 18px;
+    color: #333333;
+}
+.left2 p a{
+    font-size: 12px;
+    color: #ff6600;
+}
+.left2 .guess{
+    width: 100%;
+    margin-top: 15px;
+    overflow: hidden;
+    zoom: 1;
+}
+.left2 .guess1{
+    width: 140px;
+    margin-right: 10px;
+    float: left;
+}
+.left2 .guess1 .recent{
+    width: 134px;
+    height: 158px;
+    border: 3px solid #3a3935;
+    position: relative;
+    overflow: hidden;
+    zoom: 1;
+}
+.left2 .guess1 .recent img{
+    width: 67px;
+    height: 67px;
+    border: none;
+    float: left;
+}
+.left2 .guess1 .recent span{
+    display: inline-block;
+    width:100%;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 12px;
+    color: #999999;
+    background: #3a3935;
+}
+.left2 .guess1 .recent .play{
+    width: 45px;
+    height: 45px;
+    background: url("../images/play_icon.png") no-repeat -1px -1px;
+    position: absolute;
+    top: 45px;
+    left: 42px;
+}
+.left2 .guess1 .recent .play:hover{
+    background: url("../images/play_icon.png") no-repeat -49px -1px;
+
+}
+.left2 .guess1 p{
+    height: 58px;
+    line-height: 58px;
+    text-align: center;
+}
+.left2 .guess1 p a{
+    font-size: 18px;
+    color: #333;
+}
+
+.left2 .guessOther{
+    width: 140px;
+    float: left;
+    margin-right: 10px;
+    position: relative;
+}
+.left2 .guessOther .pic1{
+    position: relative;
+}
+.left2 .guessOther .pic1 a img{
+    width: 140px;
+    height: 140px;
+}
+.left2 .guessOther span{
+    display: inline-block;
+    width:100%;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 12px;
+    color: #999999;
+    background: #f5f5f5;
+
+}
+.left2 .guessOther p a.musicName{
+    width: 140px;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    font-size: 13px;
+    color: #333;
+}
+.left2 .guessOther p a.singer {
+    width: 140px;
+    display: inline-block;
+    height: 23px;
+    line-height: 23px;
+    font-size: 12px;
+    color: #999;
+}
+.left2 .guessOther p a:hover{
+    text-decoration: underline;
+}
+.left2 .guessOther .pic1:hover p.zz{
+    display: block;
+}
+.left2 .guessOther .pic1 p.zz{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 140px;
+    height: 140px;
+    background: #000;
+    opacity: 0.4;
+    filter:alpha(opacity=40);
+    display: none;
+}
+.left2 .guessOther .pic1 .play{
+    width: 25px;
+    height: 25px;
+    background: url("../images/play_icon.png") no-repeat 0px -47px;
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    display: none;
+}
+.left2 .guessOther .pic1:hover .play{
+    display: block;
+}
+.left2 .guessOther .pic1 .play:hover{
+    background: url("../images/play_icon.png") no-repeat -24px -47px;
+}
+.left2 .guessOther .pic1 .xin img{
+    width: 30px;
+    height:15px;
+    position:absolute;
+    top: 5px;
+    left: 5px;
+    display: none;
+}
+.left2 .guessOther .pic1:hover .xin img{
+    display: block;
+}
+.left2 .guessOther .pic1 .xin .love{
+    width: 88px;
+    height: 105px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-top: 5px;
+    position:absolute;
+    top: 5px;
+    left: 5px;
+    background: #ffffff;
+    display: none;
+}
+.left2 .guessOther .pic1 .xin:hover .love{
+    display: block;
+}
+.left2 .guessOther .pic1 .xin .love li{
+    height: 25px;
+    line-height: 25px;
+    background: #ffffff;
+    position: relative;
+}
+.left2 .guessOther .pic1 .xin .love li:hover{
+    background: #f5914e;
+}
+.left2 .guessOther .pic1 .xin .love li a em{
+    display: inline-block;
+    font-size: 14px;
+    color: #333333;
+    padding-left: 35px;
+    font-style: normal;
+
+}
+.left2 .guessOther .pic1 .xin .love li a .save{
+    width: 20px;
+    height: 20px;
+    background: url("../images/icon.png") no-repeat -1px -120px;
+    position:absolute;
+    top: 2px;
+    left: 5px;
+}
+.left2 .guessOther .pic1 .xin .love li a .send{
+    width: 20px;
+    height: 20px;
+    background: url("../images/icon.png") no-repeat -71px -120px;
+    position:absolute;
+    top: 2px;
+    left: 5px;
+}
+.left2 .guessOther .pic1 .xin .love li a .plus{
+    width: 20px;
+    height: 20px;
+    background: url("../images/icon.png") no-repeat -23px -120px;
+    position:absolute;
+    top: 2px;
+    left: 5px;
+}
+.left2 .guessOther .pic1 .xin .love li a .share{
+    width: 20px;
+    height: 20px;
+    background: url("../images/icon.png") no-repeat -47px -120px;
+    position:absolute;
+    top: 2px;
+    left: 5px;
+}
+
+.left3{
+    width: 760px;
+    margin: 30px 0 0 15px;
+}
+.left3 ul{
+    overflow: hidden;
+    zoom: 1;
+}
+.left3 ul li{
+    float: left;
+}
+.left3 ul li img{
+    width: 175px;
+    height: 60px;
+    margin-right: 15px;
+}
+
+.left4{
+    width: 740px;
+    height: 242px;
+    margin: 30px 15px 0 15px;
+    overflow: hidden;
+    position: relative;
+}
+.left4 p{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    font-size: 18px;
+    color: #333333;
+}
+.left4 p a{
+    font-size: 12px;
+    color: #ff6600;
+}
+.left4 ul{
+    width: 100%;
+    margin-top: 20px;
+    overflow: hidden;
+    zoom: 1;
+}
+.left4 ul li{
+    width: 140px;
+    float: left;
+    margin-right: 10px;
+
+}
+.left4 ul li .pic1 a img{
+    width: 140px;
+    height: 145px;
+}
+.left4 ul li span .musicName{
+    display:inline-block;
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    font-size: 13px;
+    color: #333;
+}
+.left4 ul li span .player{
+    display:inline-block;
+    width: 100%;
+    height: 23px;
+    line-height: 23px;
+    font-size: 12px;
+    color: #999;
+}
+.left4 ul li span a:hover{
+    text-decoration: underline;
+}
+.left4 .pic1{
+    position: relative;
+}
+.left4 .pic1:hover p.zz{
+    display: block;
+}
+.left4 .pic1 p.zz{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 140px;
+    height: 145px;
+    background: #000;
+    opacity: 0.4;
+    filter:alpha(opacity=40);
+    display: none;
+}
+.left4 .pic1 .play{
+    width: 25px;
+    height: 25px;
+    background: url("../images/play_icon.png") no-repeat 0px -47px;
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    display: none;
+}
+.left4 .pic1:hover .play{
+    display: block;
+}
+.left4 .pic1 .play:hover{
+    background: url("../images/play_icon.png") no-repeat -24px -47px;
+}
+.left4 .pic1 .xin img{
+    width: 30px;
+    height:15px;
+    position:absolute;
+    top: 5px;
+    left: 5px;
+    display: none;
+}
+.left4 .pic1:hover .xin img{
+    display: block;
+}
+.left4 .pic1 .xin .love{
+    width: 88px;
+    height: 105px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-top: 5px;
+    position:absolute;
+    top: -15px;
+    left: 5px;
+    background: #ffffff;
+    display: none;
+}
+.left4 .pic1 .xin:hover .love{
+    display: block;
+}
+.left4 .pic1 .xin .love li{
+    height: 25px;
+    line-height: 25px;
+    background: #ffffff;
+    position: relative;
+}
+.left4 .pic1 .xin .love li:hover{
+    background: #f5914e;
+}
+.left4 .pic1 .xin .love li a em{
+    display: inline-block;
+    font-size: 14px;
+    color: #333333;
+    padding-left: 35px;
+    font-style: normal;
+
+}
+.left4 .pic1 .xin .love li a .save{
+    width: 20px;
+    height: 20px;
+    background: url("../images/icon.png") no-repeat -1px -120px;
+    position:absolute;
+    top: 2px;
+    left: 5px;
+}
+.left4 .pic1 .xin .love li a .send{
+    width: 20px;
+    height: 20px;
+    background: url("../images/icon.png") no-repeat -71px -120px;
+    position:absolute;
+    top: 2px;
+    left: 5px;
+}
+.left4 .pic1 .xin .love li a .plus{
+    width: 20px;
+    height: 20px;
+    background: url("../images/icon.png") no-repeat -23px -120px;
+    position:absolute;
+    top: 2px;
+    left: 5px;
+}
+.left4 .pic1 .xin .love li a .share{
+    width: 20px;
+    height: 20px;
+    background: url("../images/icon.png") no-repeat -47px -120px;
+    position:absolute;
+    top: 2px;
+    left: 5px;
+}
+
+.left5{
+    width: 740px;
+    height: 242px;
+    margin: 30px 15px 0 15px;
+    overflow: hidden;
+    position: relative;
+}
+.left5 .left5-btn-left,.left5 .left5-btn-right,.left4 .left4-btn-left,.left4 .left4-btn-right{
+    z-index: 111;
+    width: 25px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    cursor: pointer;
+}
+.left5 .left5-btn-left,.left4 .left4-btn-left{
+    left: 0;
+    background: url("../images/page_icon.png") no-repeat -25px  0px;
+}
+.left5 .left5-btn-left:hover,.left4 .left4-btn-left:hover{
+    background: url("../images/page_icon.png") no-repeat -25px -50px;
+}
+.left5 .left5-btn-right,.left4 .left4-btn-right{
+    right: 0px;
+    background: url("../images/page_icon.png") no-repeat 0 0;
+}
+.left5 .left5-btn-right:hover,.left4 .left4-btn-right:hover{
+    background: url("../images/page_icon.png") no-repeat 0 -50px;
+}
+.left5 .left5-inner,.left4 .left4-inner{
+    width: 3600px;
+    position: absolute;
+    left: 0;
+}
+.left5 p{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    font-size: 18px;
+    color: #333333;
+}
+.left5 p a{
+    font-size: 12px;
+    color: #ff6600;
+}
+.left5 ul{
+    margin-top: 20px;
+    overflow: hidden;
+    float: left;
+    zoom: 1;
+}
+.left5 ul li{
+    width: 140px;
+    float: left;
+    margin-right: 10px;
+}
+.left5 ul li img{
+    width: 140px;
+    height: 145px;
+}
+.left5 ul li span .musicName{
+    display:inline-block;
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    font-size: 13px;
+    color: #333;
+}
+.left5 ul li span i{
+    float: left;
+    font-style: normal;
+}
+.left5 ul li span .icon1Left{
+    float: left;
+    width: 15px;
+    height: 15px;
+    background: url("../images/icon-1.png") no-repeat 0 2px;
+    padding-top: 3px;
+    padding-right: 10px;
+}
+.left5 ul li span .player{
+    display:inline-block;
+    float: left;
+    width: 100%;
+    height: 23px;
+    line-height: 23px;
+    font-size: 12px;
+    color: #999;
+
+}
+.left5 ul li span .icon1Right{
+    float: left;
+    width: 15px;
+    height: 15px;
+    background: url("../images/header_icon.png") no-repeat -48px -1px;
+    padding-top: 3px;
+    padding-left: 10px;
+
+}
+.left5 ul li span i:hover{
+    text-decoration: underline;
+}
+.left5 .pic1{
+    position: relative;
+}
+.left5 .pic1:hover p.zz{
+    display: block;
+}
+.left5 .pic1 p.zz{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 140px;
+    height: 145px;
+    background: #000;
+    opacity: 0.4;
+    filter:alpha(opacity=40);
+    display: none;
+}
+.left5 .pic1 .play{
+    width: 25px;
+    height: 25px;
+    background: url("../images/play_icon.png") no-repeat 0px -47px;
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    display: none;
+}
+.left5 .pic1:hover .play{
+    display: block;
+}
+.left5 .pic1 .play:hover{
+    background: url("../images/play_icon.png") no-repeat -24px -47px;
+}
+.left5 .pic1 .xin img{
+    width: 30px;
+    height:15px;
+    position:absolute;
+    top: 5px;
+    left: 5px;
+    display: none;
+}
+.left5 .pic1:hover .xin img{
+    display: block;
+}
+.left5 .pic1 .xin .love{
+    width: 88px;
+    height: 105px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-top: 5px;
+    position:absolute;
+    top: -15px;
+    left: 5px;
+    background: #ffffff;
+    display: none;
+}
+.left5 .pic1 .xin:hover .love{
+    display: block;
+}
+.left5 .pic1 .xin .love li{
+    height: 25px;
+    line-height: 25px;
+    background: #ffffff;
+    position: relative;
+}
+.left5 .pic1 .xin .love li:hover{
+    background: #f5914e;
+}
+.left5 .pic1 .xin .love li a em{
+    display: inline-block;
+    font-size: 14px;
+    color: #333333;
+    padding-left: 35px;
+    font-style: normal;
+
+}
+.left5 .pic1 .xin .love li a .save{
+    width: 20px;
+    height: 20px;
+    background: url("../images/icon.png") no-repeat -1px -120px;
+    position:absolute;
+    top: 2px;
+    left: 5px;
+}
+.left5 .pic1 .xin .love li a .send{
+    width: 20px;
+    height: 20px;
+    background: url("../images/icon.png") no-repeat -71px -120px;
+    position:absolute;
+    top: 2px;
+    left: 5px;
+}
+.left5 .pic1 .xin .love li a .plus{
+    width: 20px;
+    height: 20px;
+    background: url("../images/icon.png") no-repeat -23px -120px;
+    position:absolute;
+    top: 2px;
+    left: 5px;
+}
+.left5 .pic1 .xin .love li a .share{
+    width: 20px;
+    height: 20px;
+    background: url("../images/icon.png") no-repeat -47px -120px;
+    position:absolute;
+    top: 2px;
+    left: 5px;
+}
+.left6{
+    width: 745px;
+    height: 950px;
+    margin: 30px 15px 0 15px;
+    position: relative;
+}
+.left6 .top{
+    height: 25px;
+    line-height: 25px;
+    font-size: 18px;
+    color: #333333;
+    padding-bottom: 15px;
+    border-bottom:1px solid #ccc ;
+}
+.left6 .top a{
+    font-size: 12px;
+    color: red;
+}
+.left6 .list .list1{
+    padding: 5px 5px 10px 5px;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+    zoom: 1;
+}
+.left6 .list li:hover{
+    background: #f5f5f5;
+}
+.left6 .list li dl{
+    width: 320px;
+    float: left;
+    margin-right: 50px;
+    position: relative;
+}
+.left6 .list li dl dt span{
+    width: 25px;
+    height: 25px;
+    background: url("../images/play_icon.png") no-repeat 0px -47px;
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    display: none;
+}
+.left6 .list .list1:hover dl dt span{
+    display: block;
+}
+.left6 .list .list1 dl dt span:hover{
+    background: url("../images/play_icon.png") no-repeat -24px -47px;
+}
+.left6 .list li dl dt{
+    display: none;
+}
+.left6 .list li:hover dl dt{
+    display: block;
+}
+.left6 .list li dl dt img{
+    width:55px;
+    height: 55px;
+    float: left;
+    margin-right: 10px;
+}
+.left6 .list li dl dd{
+    line-height: 18px;
+    float: left;
+    color: #cccccc;
+    padding-right: 5px;
+}
+.left6 .list li dl dd a.other{
+    color: #333;
+}
+.left6 .list li dl dd a{
+    color: #cccccc;
+    font-size: 12px;
+}
+.left6 .list ul li dl dd a:hover{
+    text-decoration: underline;
+}
+.left6 .list li:hover dl dd{
+     float: none;
+ }
+.left6 .list li dl .xin img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+.left6 .list .list1 .xin .love{
+    width: 88px;
+    height: 105px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-top: 5px;
+    position:absolute;
+    top: 0px;
+    left: 285px;
+    background: #ffffff;
+    display: none;
+    z-index: 111;
+}
+.left6 .list .list1 .xin:hover .love{
+    display: block;
+    z-index: 111;
+}
+.left6 .list .list1 .xin .love li{
+    height: 25px;
+    line-height: 25px;
+    background: #ffffff;
+    position: relative;
+}
+.left6 .list .list1 .xin .love li:hover{
+    background: #f5914e;
+}
+.left6 .list .list1 .xin .love li a em{
+    display: inline-block;
+    font-size: 14px;
+    color: #333333;
+    padding-left: 35px;
+    font-style: normal;
+
+}
+.left6 .list .list1 .xin .love li a .save{
+    width: 20px;
+    height: 20px;
+    background: url("../images/icon.png") no-repeat -1px -120px;
+    position:absolute;
+    top: 2px;
+    left: 5px;
+}
+.left6 .list .list1 .xin .love li a .send{
+    width: 20px;
+    height: 20px;
+    background: url("../images/icon.png") no-repeat -71px -120px;
+    position:absolute;
+    top: 2px;
+    left: 5px;
+}
+.left6 .list .list1 .xin .love li a .plus{
+    width: 20px;
+    height: 20px;
+    background: url("../images/icon.png") no-repeat -23px -120px;
+    position:absolute;
+    top: 2px;
+    left: 5px;
+}
+.left6 .list .list1 .xin .love li a .share{
+    width: 20px;
+    height: 20px;
+    background: url("../images/icon.png") no-repeat -47px -120px;
+    position:absolute;
+    top: 2px;
+    left: 5px;
+}
+.left6 .list .list1 p{
+    width:270px;
+    font-size: 12px;
+    padding-left: 35px;
+    overflow: hidden;
+    zoom: 1;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position:relative;
+    color: #ccc;
+    line-height: 18px;
+}
+.left6 .list li p img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    float: left;
+    display: none;
+    padding-right: 3px;
+
+}
+.left6 .list li:hover p{
+    white-space:normal;
+    text-overflow: clip;
+    color: #333;
+}
+.left6 .list li:hover p img{
+    display: block;
+}
+.left6 .list li i{
+    font-style: normal;
+    font-size: 12px;
+    float:right;
+    color: #ccc;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+}
+.left6 .btn{
+    display: inline-block;
+    width: 85px;
+    height: 30px;
+    line-height: 30px;
+    background: #ff6600;
+    margin: 15px 0 15px 25px;
+    border:1px solid #ff6600 ;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+.left6 .btn a{
+    font-size: 14px;
+    color: #fff;
+    padding-left: 20px;
+}
+.left6 .btn i{
+    width: 0;
+    height: 0;
+    border: 7px solid #ff6600;
+    border-color: transparent transparent transparent #ffffff;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+.left6 .btn:hover{
+    background: #e55800;
+}
+
+.mainRight{
+    width:310px;
+    height: 3000px;
+    background: #fff;
+    float: right;
+    margin-top: 20px;
+}
+.right1{
+    width: 300px;
+    height: 185px;
+    border: 1px solid #ebebeb;
+    border-radius:5px ;
+    background: url("../images-1/right-bg1.jpg") no-repeat;
+    overflow: hidden;
+    zoom: 1;
+    position: relative;
+}
+.right1 img{
+    width: 115px;
+    height: 115px;
+    position:absolute;
+    bottom: 15px;
+    left: 15px;
+}
+.right1 p{
+    width: 110px;
+    height: 35px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+
+}
+.right1 p.iPhone{
+    background: #4398de;
+    position: absolute;
+    right: 30px;
+    bottom: 80px;
+}
+.right1 p.iPhone:hover{
+    background: #3b87c4;
+}
+.right1 p.iPhone .apple{
+    width: 20px;
+    height: 20px;
+    background: url("../images/unlogin_icon.png") no-repeat -8px -40px;
+    position: absolute;
+    top: 7px;
+    left: 10px;
+}
+
+.right1 p.Android{
+    background: #7ca627;
+    position: absolute;
+    right: 30px;
+    bottom: 25px;
+}
+.right1 p.Android:hover{
+    background: #688c20;
+}
+.right1 p.Android .ren{
+    width: 20px;
+    height: 25px;
+    background: url("../images/unlogin_icon.png") no-repeat -40px -35px;
+    position: absolute;
+    top: 3px;
+    left: 10px;
+}
+.right1 p span{
+    float: left;
+    font-size: 12px;
+    color: #fff;
+    margin-left: 40px;
+}
+.right2{
+    width: 300px;
+    height: 130px;
+    border: 1px solid #ebebeb;
+    border-radius:5px;
+    margin-top: 20px;
+}
+.right2 .login{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    border-bottom: 1px solid #ebebeb;
+    position: relative;
+
+}
+.right2 .login p{
+    display: inline-block;
+    font-size: 14px;
+    color: #333333;
+    margin-left: 15px;
+}
+.right2 .login .blog{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    background: #e63e32 url("../images/unlogin_icon.png") no-repeat 3px 3px;
+    position: absolute;
+    top: 20px;
+    right: 70px;
+}
+.right2 .login .blog:hover{
+    background: #cc293f url("../images/unlogin_icon.png") no-repeat 3px 3px;
+}
+.right2 .login .qq{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    background: #3595cc url("../images/unlogin_icon.png") no-repeat -29px 3px;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+}
+.right2 .login .qq:hover{
+    background: #247eb3 url("../images/unlogin_icon.png") no-repeat -29px 3px;
+}
+.right2 .register{
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    position: relative;
+}
+.right2 .register .btn{
+    width: 44px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background: #ff6600;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+.right2 .register .btn:hover{
+    background: #e55800;
+}
+.right2 .register span{
+    color: #333;
+    font-size: 14px;
+    float: right;
+    padding-right: 20px;
+}
+.right2 .register span a{
+    color: #ff6600;
+    font-size: 14px;
+}
+
+.right3{
+    width: 300px;
+    height: 50px;
+    background: url("../images-1/right-bg2.jpg") no-repeat;
+    margin-top: 20px;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+}
+.right3:hover{
+    background: url("../images-1/right-bg2.jpg") no-repeat 0 -52px;
+}
+
+.right4{
+    width: 300px;
+    height: 480px;
+    margin-top: 20px;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    position:relative;
+    overflow: hidden;
+    zoom: 1;
+}
+.right4 .right4Top{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #ebebeb;
+    margin: 0 15px;
+    color: #333;
+    font-size: 14px;
+}
+.right4 .right4Top em{
+    width: 20px;
+    height: 15px;
+    background: url("../images-1/icon%20(1).png") no-repeat;
+    float: right;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.right4 .right4Top em:hover{
+    background: url("../images-1/icon%20(1).png") no-repeat 0 -22px;
+}
+.right4 a img{
+    width: 270px;
+    height: 270px;
+    margin: 20px 15px 0;
+}
+.right4 a:hover i{
+    display: block;
+}
+.right4 a i{
+    width: 50px;
+    height: 50px;
+    background: url("../images/play_icon.png") no-repeat 0 5px;
+    position: absolute;
+    top: 170px;
+    left: 115px;
+    display: none;
+}
+.right4 a i:hover{
+    background: url("../images/play_icon.png") no-repeat -48px 5px;
+}
+.right4 .date{
+    width: 70px;
+    height: 80px;
+    background: url("../images-1/icon%20(1).png") no-repeat -40px 0;
+    position:absolute;
+    top: 55px;
+    left: 20px;
+}
+.right4 .date ul{
+    position:absolute;
+    top: 3px;
+    left: 17px;
+}
+.right4 .date ul li{
+    width: 45px;
+    height: 18px;
+    text-align: center;
+    line-height: 18px;
+    font-size: 14px;
+}
+.right4 .botL{
+    display: inline-block;
+    width: 134px;
+    height: 40px;
+    background: #f5f5f5;
+    border-right: 1px solid #ebebeb;
+    float: left;
+    margin-left: 15px;
+    position: relative;
+
+}
+.right4 .botL .xin{
+    width: 25px;
+    height: 20px;
+    background: url("../images-1/icon%20(1).png") no-repeat 0 -170px;
+    position: absolute;
+    top: 10px;
+    left: 55px;
+    cursor: pointer;
+}
+.right4 .botL .xin:hover{
+    background: url("../images-1/icon%20(1).png") no-repeat 0 -201px;
+}
+.right4 .botR{
+    display: inline-block;
+    width: 134px;
+    height: 40px;
+    background: #f5f5f5;
+    float: left;
+    position: relative;
+}
+.right4 .botR .share{
+    width: 25px;
+    height: 20px;
+    background: url("../images-1/icon%20(1).png") no-repeat 0 -45px;
+    position: absolute;
+    top: 10px;
+    left: 55px;
+    cursor: pointer;
+}
+.right4 .botR .share:hover{
+    background: url("../images-1/icon%20(1).png") no-repeat 0 -71px;
+}
+.right4 .list{
+    width: 100%;
+    height: 18px;
+    line-height: 18px;
+    /*position: absolute;*/
+    /*top:380px;*/
+    /*margin-left: 15px;*/
+
+}
+.right4 .song{
+    display: inline-block;
+    font-size: 14px;
+    height: 25px;
+    line-height: 25px;
+    color: #333;
+    float: left;
+    margin-right: 5px;
+    margin-left: 15px;
+}
+.right4 .player{
+    display: inline-block;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    color: #ccc;
+    float: left;
+}
+.right4 .neirong{
+    display: inline-block;
+    width: 270px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #ccc;
+    border-bottom: 1px solid #ebebeb;
+}
+.right4 .btn{
+    display: inline-block;
+    width: 270px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #ff6600;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 14px;
+}
+.right4 .btn:hover{
+    background: #e55c00;
+}
+
+.right5{
+    width: 300px;
+    height: 230px;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.right5 .top{
+    width: 270px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    margin-left: 15px;
+    border-bottom: 1px solid #ebebeb;
+
+
+}
+.right5 .list{
+    padding: 10px 0 0 15px;
+}
+.right5 .list li{
+    width: 55px;
+    float: left;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+.right5 .list li span{
+    display: inline-block;
+    width: 100%;
+    font-size: 12px;
+    color: #ccc;
+    text-align: center;
+}
+
+.right6{
+    width: 300px;
+    height: 650px;
+    border: 1px solid #ededed;
+    border-radius: 5px;
+    margin-top: 20px;
+    
+}
+.right6 .top{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: url("../images1/header_icon.png") no-repeat;
+}
+.right6 .top em{
+    font-size: 14px;
+    color: #fff;
+    font-style: normal;
+    margin-left: 10px;
+}
+.right6 .list{
+    margin-left: 12px;
+    margin-top: 10px;
+}
+.right6 .list li {
+    height: 50px;
+    padding:10px 0;
+}
+.right6 .list li:hover{
+    background: #CCCCCC;
+}
+.right6 .list li img{
+    border-radius: 25px;
+    float: left;
+    margin-right: 10px;
+}
+.right6 .list li span{
+    display:inline-block;
+    float: left;
+    width: 145px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #333;
+}
+.right6 .list li .btn{
+    width: 55px;
+    height: 25px;
+    line-height: 25px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    background: #ff6600;
+    float: right;
+    margin-right: 20px;
+    border-radius:5px ;
+    position: absolute;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.right7{
+    width: 300px;
+    margin-top: 20px;
+
+}
+.right7 #list ul{
+    overflow: hidden;
+    zoom: 1;
+    position: relative;
+    top: 1px;
+    border: 1px solid #ebebeb;
+}
+.right7 #list ul .mid{
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+}
+.right7 #list ul li{
+    width: 98px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    float: left;
+}
+.right7 #list ul li.select{
+    border-right: 1px solid #ebebeb;
+    border-left: 1px solid #ebebeb;
+    border-bottom:1px solid transparent ;
+}
+.right7 #list ul li a{
+    font-size: 12px;
+    color: #ff6600;
+}
+.right7 #list div{
+    width: 298px;
+    height: 150px;
+    border: 1px solid #ebebeb;
+    display: none;
+
+}
+
+.right7 #list div p{
+    font-size: 14px;
+    color: #333;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 5px;
+}
+.right7 #list div p:hover{
+    text-decoration: underline;
+}
+.right7 #list div.select{
+    display: block
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
